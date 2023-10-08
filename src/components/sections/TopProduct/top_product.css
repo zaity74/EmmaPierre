@@ -1,0 +1,424 @@
+
+@media screen and (min-width: 580px){
+    .slide{
+        width: 100%;
+        overflow: hidden;
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    
+    .slide .slide-container{
+        width: 300%;
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+        column-gap: 12px;
+        padding: 1em;
+        position: relative;
+        transition: all .8s ease-in-out;
+    }
+    
+    .slide .arrows-container{
+        width: 100%;
+        position: absolute;
+        z-index: 2;
+        display: flex;
+        justify-content: space-between;
+    }
+    .slide .arrows-container .i{
+        align-items: center;
+        font-size: 2em;
+        color: white;
+        cursor: pointer;
+        background-color: #DAA379;
+        /* padding: 1em; */
+        padding: 0.2em;
+        border-radius: 50%;
+        display: flex;
+        justify-content: center;
+    }
+    
+    .slide .slide-container .slide-card{
+        width: 250px;
+        height: 384px;
+        background-color: white;
+        padding: 0.5em;
+        display: flex;
+        flex-direction: column;
+        border-radius: 0px;
+        border: 1px #DAA379 solid;
+        gap: 3px;
+        box-shadow: 0 13px 16px -11px rgba(0,0,0,0.1);
+        justify-content: space-between;
+        align-items: center;
+    }
+    .slide .slide-container .slide-card:hover{
+        border: 1px #DAA379 solid;
+        box-shadow: 0 13px 16px -11px rgba(0,0,0,0.1);
+    }
+        .slide-card .card-img{
+            width: 100%;
+            height: 70%;
+            background-repeat: no-repeat;
+            background-position: center;
+            background-size: cover;
+            
+        }
+        .slide .slide-container .slide-card .text-container{
+            width: 100%;
+            display: flex;
+            flex-direction: column;
+            justify-content: flex-start;
+            align-items: center;
+        }
+            .slide .slide-container .slide-card .text-container h3{
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                text-align: center;
+                font-family: 'Jost';
+                font-style: normal;
+                font-weight: 700;
+                font-size: 20px;
+                text-transform: capitalize;
+                line-height: 29px;
+                color: #1D5F6B;
+            }
+            .slide .slide-container .slide-card .text-container .paragraphe{
+                text-align: left;
+                font-size: 0.9em;
+            }
+            .slide .slide-container .slide-card .text-container .product_action{
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+                width: 100%;
+            }
+            .slide .slide-container .slide-card .text-container .product_action .btn{
+                background-color: #F0E5D3;
+                padding-left: 12px;
+                padding-right: 12px;
+                padding-top: 2px;
+                padding-bottom: 2px;
+                color: #1D5F6B;
+                border-radius: 20px;
+                text-decoration: none;
+            }
+            .slide .slide-container .slide-card .text-container .product_action .btn:hover{
+                color: white;
+            }
+            .slide .slide-container .slide-card .text-container .product_action p{
+                font-family: 'Jost';
+                font-style: normal;
+                font-weight: 600;
+                font-size: 16px;
+                line-height: 23px;
+                text-align: center;
+                text-transform: capitalize;
+                color: #000000;
+            }
+    
+            .card{
+    
+                background-repeat: no-repeat;
+                background-position: center;
+                background-size: cover;
+            }
+}
+
+@media screen and (max-width: 580px) and (min-width: 470px){
+    .slide{
+        width: 100%;
+        overflow: hidden;
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .slide .slide-container{
+        width: 90%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 1em;
+        position: relative;
+        transition: all .8s ease-in-out;
+        gap: 20px;
+    }
+    
+    .slide .arrows-container{
+        width: 100%;
+        position: absolute;
+        z-index: 2;
+        display: none;
+        justify-content: space-between;
+    }
+    .slide .arrows-container .i{
+        align-items: center;
+        font-size: 2em;
+        color: white;
+        cursor: pointer;
+        background-color: #DAA379;
+        /* padding: 1em; */
+        padding: 0.2em;
+        border-radius: 50%;
+        display: flex;
+        justify-content: center;
+    }
+    .slide .slide-container a {
+        display: flex;
+        justify-content: center;
+    }
+    .slide .slide-container .slide-card{
+        width: 380px;
+        height: 384px;
+        background-color: white;
+        padding: 0.5em;
+        display: flex;
+        flex-direction: column;
+        border-radius: 0px;
+        border: 1px #DAA379 solid;
+        gap: 3px;
+        box-shadow: 0 13px 16px -11px rgba(0,0,0,0.1);
+        justify-content: space-between;
+        align-items: center;
+    }
+    .slide .slide-container .slide-card:hover{
+        border: 1px #DAA379 solid;
+        box-shadow: 0 13px 16px -11px rgba(0,0,0,0.1);
+    }
+        .slide-card .card-img{
+            width: 100%;
+            height: 70%;
+            background-repeat: no-repeat;
+            background-position: center;
+            background-size: cover;
+            
+        }
+        .slide .slide-container .slide-card .text-container{
+            width: 100%;
+            display: flex;
+            flex-direction: column;
+            justify-content: flex-start;
+            align-items: center;
+        }
+            .slide .slide-container .slide-card .text-container h3{
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                text-align: center;
+                font-family: 'Jost';
+                font-style: normal;
+                font-weight: 700;
+                font-size: 20px;
+                text-transform: capitalize;
+                line-height: 29px;
+                color: #1D5F6B;
+            }
+            .slide .slide-container .slide-card .text-container .paragraphe{
+                text-align: left;
+                font-size: 0.9em;
+            }
+            .slide .slide-container .slide-card .text-container .product_action{
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+                width: 100%;
+            }
+            .slide .slide-container .slide-card .text-container .product_action .btn{
+                background-color: #F0E5D3;
+                padding-left: 12px;
+                padding-right: 12px;
+                padding-top: 2px;
+                padding-bottom: 2px;
+                color: #1D5F6B;
+                border-radius: 20px;
+                text-decoration: none;
+            }
+            .slide .slide-container .slide-card .text-container .product_action .btn:hover{
+                color: white;
+            }
+            .slide .slide-container .slide-card .text-container .product_action p{
+                font-family: 'Jost';
+                font-style: normal;
+                font-weight: 600;
+                font-size: 16px;
+                line-height: 23px;
+                text-align: center;
+                text-transform: capitalize;
+                color: #000000;
+            }
+    
+            .card{
+    
+                background-repeat: no-repeat;
+                background-position: center;
+                background-size: cover;
+            }
+}
+
+@media screen and (max-width: 470px){
+    .slide{
+        width: 100%;
+        overflow: hidden;
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .slide .slide-container{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        position: relative;
+        transition: all .8s ease-in-out;
+        gap: 20px;
+    }
+    
+    .slide .arrows-container{
+        width: 100%;
+        position: absolute;
+        z-index: 2;
+        display: none;
+        justify-content: space-between;
+    }
+    .slide .arrows-container .i{
+        align-items: center;
+        font-size: 2em;
+        color: white;
+        cursor: pointer;
+        background-color: #DAA379;
+        /* padding: 1em; */
+        padding: 0.2em;
+        border-radius: 50%;
+        display: flex;
+        justify-content: center;
+    }
+    .slide .slide-container a {
+        display: flex;
+        justify-content: center;
+        width: 100%;
+    }
+    .slide .slide-container .slide-card{
+        width: 100%;
+        height: 384px;
+        background-color: white;
+        padding: 0.5em;
+        display: flex;
+        flex-direction: column;
+        border-radius: 0px;
+        border: 1px #DAA379 solid;
+        gap: 3px;
+        box-shadow: 0 13px 16px -11px rgba(0,0,0,0.1);
+        justify-content: space-between;
+        align-items: center;
+    }
+    .slide .slide-container .slide-card:hover{
+        border: 1px #DAA379 solid;
+        box-shadow: 0 13px 16px -11px rgba(0,0,0,0.1);
+    }
+        .slide-card .card-img{
+            width: 100%;
+            height: 70%;
+            background-repeat: no-repeat;
+            background-position: center;
+            background-size: cover;
+            
+        }
+        .slide .slide-container .slide-card .text-container{
+            width: 100%;
+            display: flex;
+            flex-direction: column;
+            justify-content: flex-start;
+            align-items: center;
+        }
+            .slide .slide-container .slide-card .text-container h3{
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                text-align: center;
+                font-family: 'Jost';
+                font-style: normal;
+                font-weight: 700;
+                font-size: 20px;
+                text-transform: capitalize;
+                line-height: 29px;
+                color: #1D5F6B;
+            }
+            .slide .slide-container .slide-card .text-container .paragraphe{
+                text-align: left;
+                font-size: 0.9em;
+            }
+            .slide .slide-container .slide-card .text-container .product_action{
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+                width: 100%;
+            }
+            .slide .slide-container .slide-card .text-container .product_action .btn{
+                background-color: #F0E5D3;
+                padding-left: 12px;
+                padding-right: 12px;
+                padding-top: 2px;
+                padding-bottom: 2px;
+                color: #1D5F6B;
+                border-radius: 20px;
+                text-decoration: none;
+                width: fit-content;
+            }
+            .slide .slide-container .slide-card .text-container .product_action .btn:hover{
+                color: white;
+            }
+            .slide .slide-container .slide-card .text-container .product_action p{
+                font-family: 'Jost';
+                font-style: normal;
+                font-weight: 600;
+                font-size: 16px;
+                line-height: 23px;
+                text-align: center;
+                text-transform: capitalize;
+                color: #000000;
+            }
+    
+            .card{
+    
+                background-repeat: no-repeat;
+                background-position: center;
+                background-size: cover;
+            }
+}
+.btnProduct{
+    box-sizing: border-box;
+    /* Auto layout */
+    padding: 10px 29px;
+    width: fit-content;
+    border: 2px solid #8D8D8D;
+    backdrop-filter: blur(30px);
+    border-radius: 24.5px;
+    text-decoration: none;
+    color: #1D5F6B;
+    text-transform: uppercase;
+    font-family: 'Jost',sans-serif;
+    font-weight: 600;
+    transition: all .3s ease-in-out;
+}
+.btnProduct:hover{
+    box-sizing: border-box;
+    /* Auto layout */
+    padding: 10px 29px;
+    width: fit-content;
+    border: 2px solid white;
+    border-radius: 24.5px;
+    text-decoration: none;
+    color: white;
+    background-color: #DAA379;
+}

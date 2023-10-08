@@ -1,0 +1,105 @@
+@media screen and (min-width: 620px){
+    .banner_section{
+        width: 100vw;
+        height: 12rem;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        position: relative;
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+        background-attachment: fixed;
+    }
+    .banner_section .banner-container{
+        height: 100%;
+        display: flex;
+        justify-content: flex-start;
+        flex-direction: column;
+        gap: 1rem;
+        padding-top: 2rem;
+        padding-left: 2rem;
+        width: 80%;
+    }
+    
+    .banner_section .banner-container .signature{
+        font-family: 'Jost';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 3em;
+        line-height: 40px;
+        text-align: center;
+        text-transform: uppercase;
+        width: -moz-fit-content;
+        width: fit-content;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        color: #FFFFFF;
+        gap: 0em;
+    }
+    .banner_section .banner-container .signature span{
+        font-family: 'Jost';
+        font-style: normal;
+        font-weight: 600;
+        font-size: .5em;
+        text-align: center;
+        text-transform: uppercase;
+    
+        color: #FFFFFF;
+    }
+}
+@media screen and (max-width: 680px){
+    .banner_section{
+        width: 100vw;
+        height: 12rem;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        position: relative;
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+    }
+    .banner_section .banner-container{
+        height: 100%;
+        display: flex;
+        justify-content: flex-start;
+        flex-direction: column;
+        gap: 1rem;
+        padding-top: 2rem;
+        padding-left: 2rem;
+        width: 90%;
+    }
+    
+    .banner_section .banner-container .signature{
+        font-family: 'Jost';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 2.4em;
+        line-height: 40px;
+        text-align: center;
+        text-transform: uppercase;
+        width: -moz-fit-content;
+        width: fit-content;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        color: #FFFFFF;
+        gap: 0em;
+    }
+    .banner_section .banner-container .signature span{
+        font-family: 'Jost';
+        font-style: normal;
+        font-weight: 600;
+        font-size: .5em;
+        text-align: center;
+        text-transform: uppercase;
+    
+        color: #FFFFFF;
+    }
+}

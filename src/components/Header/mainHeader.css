@@ -1,0 +1,1549 @@
+
+@media screen and (min-width: 990px){
+    .banner{
+        width: 100vw;
+        position: relative;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 6em;
+        height: 40em;
+    }
+    
+    .banner img{
+        margin: auto;
+        z-index: 1;
+    }
+    .banner .hero-container{
+        height: 100%;
+        position: absolute;
+        top: 0;
+        gap: 5rem;
+        z-index: 2;
+        padding-top: 2em;
+    }
+    
+    .hide-card{
+        display: none;
+    }
+    .banner .hero-container .relative-box{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        position: relative;
+        width: 100%;
+        gap: 0.8rem;
+    
+    }
+    .banner .hero-container .relative-box .banner-info{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        gap: 8px;
+        padding: 1.5rem;
+    }
+    .banner .hero-container .relative-box .banner-info h1{
+        font-size: 4rem;
+    }
+    .banner .hero-container .relative-box .banner-info p{
+        font-size: 1.2rem;
+        line-height: 2rem;
+    }
+    .banner .hero-container .relative-box .hero-box{
+        width: 100%;
+        height: 12rem;
+        padding: 10px;
+        position: relative;
+        display: flex;
+        justify-content: center;
+    }
+    .banner .hero-container .relative-box .hero-box .left{
+        position: absolute;
+        width: 303.3px;
+        left: -3%;
+        opacity: 0;
+        border-radius: 0.5rem;
+        margin-top: 30px;
+        display: flex;
+        flex-direction: column;
+        row-gap: 20px;
+        align-items: center;
+        transform: translateX(-20%);
+        transform: scale(.9);
+        animation: animation3 1s ease forwards ;
+        animation-delay: 200ms ;
+    }
+            .banner .hero-container .relative-box .hero-box .left h2 {
+                /*position: absolute;*/
+                text-transform: capitalize;
+                color: #DAA379;
+                font-family: 'Jost';
+                font-style: normal;
+                font-weight: 700;
+                text-align: center;
+            }
+            .banner .hero-container .relative-box .hero-box .left .box-image{
+                /*position: absolute;*/
+                width: 223.3px;
+                height: 263px;
+                /*left: 42px;*/
+                top: 108px;
+                filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+                border: 6px solid white;
+                border-radius: 0px 111.651px 111.651px 111.651px;
+                background-repeat: no-repeat;
+                background-position: 50% 50%;
+                background-size: cover;
+                display: flex;
+                flex-direction: column;
+                justify-content: flex-end;
+                align-items: center;
+                transition: all .5s;
+            }
+            .banner .hero-container .relative-box .hero-box .left .box-image:hover{
+                /*position: absolute;*/
+                background-size: 150%;
+            }
+            .banner .hero-container .relative-box .hero-box .left .box-image img{
+                /*position: absolute;*/
+                width: 64px;
+                border-radius: 50%;
+                position: relative;
+                top: 115px;
+            }
+            .banner .hero-container .relative-box .hero-box .left p {
+                /*position: absolute;*/
+                text-align: center;
+            }
+    
+    .banner .hero-container .relative-box .hero-box  .center{
+        /*position: absolute;*/
+        width: 337.89px;
+        height: 420.17999999999995px;
+        position: absolute;
+        top: 0;
+        border: 6px solid #ffffff;
+        border-radius: 259px;
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+        filter: drop-shadow(3px 4px 24px rgba(0, 0, 0, 0.15));
+        /*transition: all .2s ease-in-out;*/
+    }
+            .banner .hero-container .relative-box .hero-box .center .overlay{
+                position: absolute;
+                display: none;
+                bottom: 0;
+                left: 0;
+                width: 337.89px;
+                height: 160.17999999999995px;
+                background: rgba(243, 243, 243, 0.7);
+                backdrop-filter: blur(-20px);
+                /* Note: backdrop-filter has minimal browser support */
+    
+                border-radius: 0px 0px 259px 259px;
+                justify-content: center;
+                align-items: flex-start;
+                padding-top: 40px;
+            }
+    .banner .hero-container .relative-box .hero-box .right{
+        position: absolute;
+        width: 303.3px;
+        right: -3%;
+        opacity: 0;
+        margin-top: 30px;
+        border-radius: 0.5rem;
+        display: flex;
+        flex-direction: column;
+        row-gap: 20px;
+        align-items: center;
+        transform: translateX(-20%);
+        transform: scale(.9);
+        animation: animation2 1s ease forwards ;
+        animation-delay: 200ms ;
+        
+    
+    }
+            .banner .hero-container .relative-box .hero-box .right .box-image{
+                /*position: absolute;*/
+                width: 223.3px;
+                height: 263px;
+                /*left: 42px;*/
+                top: 108px;
+                filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+                border: 6px solid #ffffff;
+                border-radius: 100.151px 0px 100.151px 100.151px;
+                background-repeat: no-repeat;
+                background-position: center;
+                background-size: cover;
+                display: flex;
+                justify-content: center;
+                align-items: flex-end;
+            }
+            .banner .hero-container .relative-box .hero-box .right .box-image img{
+                /*position: absolute;*/
+                width: 64px;
+                border-radius: 50%;
+                position: relative;
+                top: 125px;
+                
+            }
+            .banner .hero-container .relative-box .hero-box .right .box-image:hover{
+                /*position: absolute;*/
+                background-size: 150%;
+            }
+            .banner .hero-container .relative-box .hero-box .right .title {
+                /*position: absolute;*/
+                text-transform: capitalize;
+                color: #DAA379;
+                font-family: 'Jost';
+                font-style: normal;
+                font-weight: 700;
+                text-align: center;
+            }
+            .banner .hero-container .relative-box .hero-box .right .title span {
+                /*position: absolute;*/
+                font-family: 'Jost';
+                font-style: normal;
+                font-weight: 500;
+                line-height: 36px;
+                text-align: center;
+                text-transform: uppercase;
+                color: #8D8D8D;
+            }
+            .banner .hero-container .relative-box .hero-box .right p {
+                /*position: absolute;*/
+                text-align: center;
+            }
+        
+            /* -------------- DOT POINTS ------------ */
+            .banner .hero-container .relative-box  .hero-box .dot_point_container{
+                position: absolute;
+                top: 0;
+                right: 0;
+                padding: 1rem;
+                height: 100%;
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+                gap: 1.2rem;
+            }
+            .banner .hero-container .relative-box .hero-box .dot_point_container .dot_point_active{
+                width: 12px;
+                height: 24px;
+                border-radius: 30%;
+                box-sizing: border-box;
+                background-color: #DAA379;
+                transition: 0.7s ease-in-out;
+            }
+            .banner .hero-container .relative-box .hero-box .dot_point_container .dot_point{
+                width: 10px;
+                height: 10px;
+                border-radius: 50%;
+                box-sizing: border-box;
+                opacity: .9;
+                border: 1px rgba(255, 255, 255, 0.8) solid;
+                background-color: white;
+                cursor: pointer;
+            }
+            .banner .hero-container .relative-box .hero-box .dot_point_container .dot_point:hover{
+                border: 3px #DAA379 solid;
+            }
+    
+            /* -------------- ARROW ------------ */
+            .prevBtn{
+                position: absolute;
+                top: 100%;
+                padding: .3em;
+                outline: none;
+                border: none;
+                color: white; 
+                background-color: #DAA379;
+                margin-right: 40%;
+                border-radius: 50%;
+                width: 40px;
+                height: 40px;
+                cursor: pointer;
+                transition: all .2s ease-in-out;
+                font-size: 1.2em;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+            }
+            .prevBtn:hover{
+                background-color: #eaba95;
+                width: 50px;
+                height: 50px;
+            }
+            .nextBtn{
+                position: absolute;
+                top: 100%;
+                margin-left: 40%;
+                padding: .3em;
+                outline: none;
+                border: none;
+                color: white; 
+                background-color: #DAA379;
+                border-radius: 50%;
+                width: 40px;
+                height: 40px;
+                cursor: pointer;
+                transition: all .3s ease-in-out;
+                font-size: 1.2em;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+            }
+            .nextBtn:hover{
+                background-color: #eaba95;
+                width: 50px;
+                height: 50px;
+            }
+}
+@media screen and (max-width: 990px) and (min-width: 768px){
+    .banner{
+        width: 100vw;
+        position: relative;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 6em;
+        height: 40em;
+    }
+    
+    .banner img{
+        margin: auto;
+        z-index: 1;
+    }
+    .banner .hero-container{
+        height: 100%;
+        position: absolute;
+        top: 0;
+        gap: 5rem;
+        z-index: 2;
+        padding-top: 2em;
+    }
+    
+    .hide-card{
+        display: none;
+    }
+    .banner .hero-container .relative-box{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        position: relative;
+        width: 100%;
+        gap: 0.8rem;
+    
+    }
+    .banner .hero-container .relative-box .banner-info{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        gap: 8px;
+        padding: 1.5rem;
+    }
+    .banner .hero-container .relative-box .banner-info h1{
+        font-size: 4rem;
+    }
+    .banner .hero-container .relative-box .banner-info p{
+        font-size: 1.2rem;
+        line-height: 2rem;
+    }
+    .banner .hero-container .relative-box .hero-box{
+        width: 100%;
+        height: 12rem;
+        padding: 10px;
+        position: relative;
+        display: flex;
+        justify-content: center;
+    }
+    .banner .hero-container .relative-box .hero-box .left{
+        position: absolute;
+        width: 203.3px;
+        left: -3%;
+        opacity: 0;
+        border-radius: 0.5rem;
+        margin-top: 30px;
+        display: flex;
+        flex-direction: column;
+        row-gap: 20px;
+        align-items: center;
+        transform: translateX(-20%);
+        transform: scale(.9);
+        animation: animation3 1s ease forwards ;
+        animation-delay: 200ms ;
+    }
+            .banner .hero-container .relative-box .hero-box .left h2 {
+                /*position: absolute;*/
+                text-transform: capitalize;
+                color: #DAA379;
+                font-family: 'Jost';
+                font-style: normal;
+                font-weight: 700;
+                text-align: center;
+            }
+            .banner .hero-container .relative-box .hero-box .left .box-image{
+                /*position: absolute;*/
+                width: 223.3px;
+                height: 263px;
+                /*left: 42px;*/
+                top: 108px;
+                filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+                border: 6px solid white;
+                border-radius: 0px 111.651px 111.651px 111.651px;
+                background-repeat: no-repeat;
+                background-position: 50% 50%;
+                background-size: cover;
+                display: flex;
+                flex-direction: column;
+                justify-content: flex-end;
+                align-items: center;
+                transition: all .5s;
+            }
+            .banner .hero-container .relative-box .hero-box .left .box-image:hover{
+                /*position: absolute;*/
+                background-size: 150%;
+            }
+            .banner .hero-container .relative-box .hero-box .left .box-image img{
+                /*position: absolute;*/
+                width: 64px;
+                border-radius: 50%;
+                position: relative;
+                top: 115px;
+            }
+            .banner .hero-container .relative-box .hero-box .left p {
+                /*position: absolute;*/
+                text-align: center;
+            }
+    
+    .banner .hero-container .relative-box .hero-box  .center{
+        /*position: absolute;*/
+        width: 237.89px;
+        height: 320.17999999999995px;
+        position: absolute;
+        top: 40%;
+        border: 6px solid #ffffff;
+        border-radius: 259px;
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+        filter: drop-shadow(3px 4px 24px rgba(0, 0, 0, 0.15));
+        /*transition: all .2s ease-in-out;*/
+    }
+            .banner .hero-container .relative-box .hero-box .center .overlay{
+                position: absolute;
+                display: none;
+                bottom: 0;
+                left: 0;
+                width: 337.89px;
+                height: 160.17999999999995px;
+                background: rgba(243, 243, 243, 0.7);
+                backdrop-filter: blur(-20px);
+                /* Note: backdrop-filter has minimal browser support */
+    
+                border-radius: 0px 0px 259px 259px;
+                justify-content: center;
+                align-items: flex-start;
+                padding-top: 40px;
+            }
+    .banner .hero-container .relative-box .hero-box .right{
+        position: absolute;
+        width: 203.3px;
+        right: -3%;
+        opacity: 0;
+        margin-top: 30px;
+        border-radius: 0.5rem;
+        display: flex;
+        flex-direction: column;
+        row-gap: 20px;
+        align-items: center;
+        transform: translateX(-20%);
+        transform: scale(.9);
+        animation: animation2 1s ease forwards ;
+        animation-delay: 200ms ;
+        
+    
+    }
+            .banner .hero-container .relative-box .hero-box .right .box-image{
+                /*position: absolute;*/
+                width: 223.3px;
+                height: 263px;
+                /*left: 42px;*/
+                top: 108px;
+                filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+                border: 6px solid #ffffff;
+                border-radius: 100.151px 0px 100.151px 100.151px;
+                background-repeat: no-repeat;
+                background-position: center;
+                background-size: cover;
+                display: flex;
+                justify-content: center;
+                align-items: flex-end;
+            }
+            .banner .hero-container .relative-box .hero-box .right .box-image img{
+                /*position: absolute;*/
+                width: 64px;
+                border-radius: 50%;
+                position: relative;
+                top: 125px;
+                
+            }
+            .banner .hero-container .relative-box .hero-box .right .box-image:hover{
+                /*position: absolute;*/
+                background-size: 150%;
+            }
+            .banner .hero-container .relative-box .hero-box .right .title {
+                /*position: absolute;*/
+                text-transform: capitalize;
+                color: #DAA379;
+                font-family: 'Jost';
+                font-style: normal;
+                font-weight: 700;
+                text-align: center;
+            }
+            .banner .hero-container .relative-box .hero-box .right .title span {
+                /*position: absolute;*/
+                font-family: 'Jost';
+                font-style: normal;
+                font-weight: 500;
+                line-height: 36px;
+                text-align: center;
+                text-transform: uppercase;
+                color: #8D8D8D;
+            }
+            .banner .hero-container .relative-box .hero-box .right p {
+                /*position: absolute;*/
+                text-align: center;
+            }
+        
+            /* -------------- DOT POINTS ------------ */
+            .banner .hero-container .relative-box  .hero-box .dot_point_container{
+                position: absolute;
+                top: 356px;
+                padding: 1rem;
+                height: 100%;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                gap: 1.2rem;
+            }
+            .banner .hero-container .relative-box .hero-box .dot_point_container .dot_point_active{
+                width: 12px;
+                height: 24px;
+                border-radius: 30%;
+                box-sizing: border-box;
+                background-color: #DAA379;
+                transition: 0.7s ease-in-out;
+            }
+            .banner .hero-container .relative-box .hero-box .dot_point_container .dot_point{
+                width: 10px;
+                height: 10px;
+                border-radius: 50%;
+                box-sizing: border-box;
+                opacity: .9;
+                border: 1px rgba(255, 255, 255, 0.8) solid;
+                background-color: white;
+                cursor: pointer;
+            }
+            .banner .hero-container .relative-box .hero-box .dot_point_container .dot_point:hover{
+                border: 3px #DAA379 solid;
+            }
+    
+            /* -------------- ARROW ------------ */
+            .prevBtn{
+                position: absolute;
+                top: 100%;
+                padding: .3em;
+                outline: none;
+                border: none;
+                color: white; 
+                background-color: #DAA379;
+                margin-right: 40%;
+                border-radius: 50%;
+                width: 40px;
+                height: 40px;
+                cursor: pointer;
+                transition: all .2s ease-in-out;
+                font-size: 1.2em;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+            }
+            .prevBtn:hover{
+                background-color: #eaba95;
+                width: 50px;
+                height: 50px;
+            }
+            .nextBtn{
+                position: absolute;
+                top: 100%;
+                margin-left: 40%;
+                padding: .3em;
+                outline: none;
+                border: none;
+                color: white; 
+                background-color: #DAA379;
+                border-radius: 50%;
+                width: 40px;
+                height: 40px;
+                cursor: pointer;
+                transition: all .3s ease-in-out;
+                font-size: 1.2em;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+            }
+            .nextBtn:hover{
+                background-color: #eaba95;
+                width: 50px;
+                height: 50px;
+            }
+}
+@media screen and (max-width: 768px) and (min-width: 528px){
+    .banner{
+        width: 100vw;
+        position: relative;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 6em;
+        height: 40em;
+    }
+    
+    .banner img{
+        margin: auto;
+        z-index: 1;
+    }
+    .banner .hero-container{
+        height: 100%;
+        position: absolute;
+        top: 0;
+        gap: 5rem;
+        z-index: 2;
+        padding-top: 2em;
+    }
+    
+    .hide-card{
+        display: none;
+    }
+    .banner .hero-container .relative-box{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        position: relative;
+        width: 100%;
+        gap: 0.8rem;
+    
+    }
+    .banner .hero-container .relative-box .banner-info{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        gap: 8px;
+        padding: 1.5rem;
+    }
+    .banner .hero-container .relative-box .banner-info h1{
+        font-size: 4rem;
+    }
+    .banner .hero-container .relative-box .banner-info p{
+        font-size: 1.2rem;
+        line-height: 2rem;
+    }
+    .banner .hero-container .relative-box .hero-box{
+        width: 100%;
+        height: 12rem;
+        padding: 10px;
+        position: relative;
+        display: flex;
+        justify-content: center;
+    }
+    .banner .hero-container .relative-box .hero-box .left{
+        position: absolute;
+        width: 20%;
+        left: -3%;
+        opacity: 0;
+        border-radius: 0.5rem;
+        margin-top: -30px;
+        display: flex;
+        flex-direction: column;
+        row-gap: 20px;
+        align-items: center;
+        transform: translateX(-20%);
+        transform: scale(.9);
+        animation: animation3 1s ease forwards ;
+        animation-delay: 200ms ;
+    }
+            .banner .hero-container .relative-box .hero-box .left h2 {
+                /*position: absolute;*/
+                text-transform: capitalize;
+                color: #DAA379;
+                font-family: 'Jost';
+                font-style: normal;
+                font-weight: 700;
+                text-align: center;
+                margin-top: 14px;
+            }
+            .banner .hero-container .relative-box .hero-box .left .box-image{
+                /*position: absolute;*/
+                width: 104px;
+                height: 124px;
+                /*left: 42px;*/
+                top: 108px;
+                filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+                background-color: #8D8D8D;
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+                transition: all .5s;
+                background-repeat: no-repeat;
+                background-position: center;
+                background-size: cover;
+                border-radius: 0px 111.651px 111.651px 111.651px;
+                border: 3px white solid;
+            }
+            .banner .hero-container .relative-box .hero-box .left .box-image:hover{
+                /*position: absolute;*/
+                background-size: 150%;
+            }
+            .banner .hero-container .relative-box .hero-box .left .box-image img{
+                /*position: absolute;*/
+                width: 64px;
+                border-radius: 50%;
+                position: relative;
+                top: 55px;
+            }
+            .banner .hero-container .relative-box .hero-box .left p {
+                /*position: absolute;*/
+                text-align: center;
+                display: none;
+            }
+    
+    .banner .hero-container .relative-box .hero-box  .center{
+        /*position: absolute;*/
+        width: 237.89px;
+        height: 320.17999999999995px;
+        position: absolute;
+        top: 40%;
+        border: 6px solid #ffffff;
+        border-radius: 259px;
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+        filter: drop-shadow(3px 4px 24px rgba(0, 0, 0, 0.15));
+        /*transition: all .2s ease-in-out;*/
+    }
+            .banner .hero-container .relative-box .hero-box .center .overlay{
+                position: absolute;
+                display: none;
+                bottom: 0;
+                left: 0;
+                width: 337.89px;
+                height: 160.17999999999995px;
+                background: rgba(243, 243, 243, 0.7);
+                backdrop-filter: blur(-20px);
+                /* Note: backdrop-filter has minimal browser support */
+    
+                border-radius: 0px 0px 259px 259px;
+                justify-content: center;
+                align-items: flex-start;
+                padding-top: 40px;
+            }
+    .banner .hero-container .relative-box .hero-box .right{
+        position: absolute;
+        width: 20%;
+        right: -3%;
+        opacity: 0;
+        margin-top: -30px;
+        border-radius: 0.5rem;
+        display: flex;
+        flex-direction: column;
+        row-gap: 20px;
+        align-items: center;
+        transform: translateX(-20%);
+        transform: scale(.9);
+        animation: animation2 1s ease forwards ;
+        animation-delay: 200ms ;
+        
+    
+    }
+            .banner .hero-container .relative-box .hero-box .right .box-image{
+                /*position: absolute;*/
+                width: 104px;
+                height: 124px;
+                /*left: 42px;*/
+                top: 108px;
+                filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+                border: 3px solid #ffffff;
+                border-radius: 100.151px 0px 100.151px 100.151px;
+                background-repeat: no-repeat;
+                background-position: center;
+                background-size: cover;
+                display: flex;
+                justify-content: center;
+                align-items: flex-end;
+            }
+            .banner .hero-container .relative-box .hero-box .right .box-image img{
+                /*position: absolute;*/
+                width: 64px;
+                border-radius: 50%;
+                position: relative;
+                top: 55px;
+                
+            }
+            .banner .hero-container .relative-box .hero-box .right .box-image:hover{
+                /*position: absolute;*/
+                background-size: 150%;
+            }
+            .banner .hero-container .relative-box .hero-box .right h2{
+                /*position: absolute;*/
+                text-transform: capitalize;
+                color: #DAA379;
+                font-family: 'Jost';
+                font-style: normal;
+                font-weight: 700;
+                text-align: center;
+            }
+            .banner .hero-container .relative-box .hero-box .right .title span {
+                /*position: absolute;*/
+                font-family: 'Jost';
+                font-style: normal;
+                font-weight: 500;
+                line-height: 36px;
+                text-align: center;
+                text-transform: uppercase;
+                color: #8D8D8D;
+                margin-top: 14px;
+            }
+            .banner .hero-container .relative-box .hero-box .right p {
+                /*position: absolute;*/
+                text-align: center;
+                display: none;
+            }
+        
+            /* -------------- DOT POINTS ------------ */
+            .banner .hero-container .relative-box  .hero-box .dot_point_container{
+                position: absolute;
+                top: -80px;
+                /*right: 0; */
+                padding: 1rem;
+                height: 100%;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                gap: 1.2rem;
+            }
+            .banner .hero-container .relative-box .hero-box .dot_point_container .dot_point_active{
+                width: 12px;
+                height: 24px;
+                border-radius: 30%;
+                box-sizing: border-box;
+                background-color: #DAA379;
+                transition: 0.7s ease-in-out;
+            }
+            .banner .hero-container .relative-box .hero-box .dot_point_container .dot_point{
+                width: 10px;
+                height: 10px;
+                border-radius: 50%;
+                box-sizing: border-box;
+                opacity: .9;
+                border: 1px rgba(255, 255, 255, 0.8) solid;
+                background-color: white;
+                cursor: pointer;
+            }
+            .banner .hero-container .relative-box .hero-box .dot_point_container .dot_point:hover{
+                border: 3px #DAA379 solid;
+            }
+    
+            /* -------------- ARROW ------------ */
+            .prevBtn{
+                position: absolute;
+                top: 120%;
+                padding: .3em;
+                outline: none;
+                border: none;
+                color: white; 
+                background-color: #DAA379;
+                margin-right: 40%;
+                border-radius: 50%;
+                width: 40px;
+                height: 40px;
+                cursor: pointer;
+                transition: all .2s ease-in-out;
+                font-size: 1.2em;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+            }
+            .prevBtn:hover{
+                background-color: #eaba95;
+                width: 50px;
+                height: 50px;
+            }
+            .nextBtn{
+                position: absolute;
+                top: 120%;
+                margin-left: 40%;
+                padding: .3em;
+                outline: none;
+                border: none;
+                color: white; 
+                background-color: #DAA379;
+                border-radius: 50%;
+                width: 40px;
+                height: 40px;
+                cursor: pointer;
+                transition: all .3s ease-in-out;
+                font-size: 1.2em;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+            }
+            .nextBtn:hover{
+                background-color: #eaba95;
+                width: 50px;
+                height: 50px;
+            }
+}
+
+@media screen and (max-width: 528px) and (min-width: 328px){
+    .banner{
+        width: 100vw;
+        position: relative;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 40em;
+    }
+    
+    .banner img{
+        margin: auto;
+        z-index: 1;
+    }
+    .banner .hero-container{
+        height: 100%;
+        position: absolute;
+        top: 0;
+        gap: 5rem;
+        z-index: 2;
+        padding-top: 2em;
+    }
+    
+    .hide-card{
+        display: none;
+    }
+    .banner .hero-container .relative-box{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        position: relative;
+        width: 100%;
+        gap: 0.8rem;
+    
+    }
+    .banner .hero-container .relative-box .banner-info{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        gap: 8px;
+        padding: 1.5rem;
+    }
+    .banner .hero-container .relative-box .banner-info h1{
+        font-size: 4rem;
+    }
+    .banner .hero-container .relative-box .banner-info p{
+        font-size: 1.2rem;
+        line-height: 2rem;
+    }
+    .banner .hero-container .relative-box .hero-box{
+        width: 100%;
+        height: 12rem;
+        padding: 10px;
+        position: relative;
+        display: flex;
+        justify-content: center;
+    }
+    .banner .hero-container .relative-box .hero-box .left{
+        position: absolute;
+        width: 20%;
+        left: -3%;
+        opacity: 0;
+        border-radius: 0.5rem;
+        margin-top: -30px;
+        display: flex;
+        flex-direction: column;
+        row-gap: 20px;
+        align-items: center;
+        transform: translateX(-20%);
+        transform: scale(.9);
+        animation: animation3 1s ease forwards ;
+        animation-delay: 200ms ;
+    }
+            .banner .hero-container .relative-box .hero-box .left h2 {
+                /*position: absolute;*/
+                text-transform: capitalize;
+                color: #DAA379;
+                font-family: 'Jost';
+                font-style: normal;
+                font-weight: 700;
+                text-align: center;
+                margin-top: 14px;
+                font-size: 1.7rem;
+            }
+            .banner .hero-container .relative-box .hero-box .left .box-image{
+                /*position: absolute;*/
+                width: 104px;
+                height: 124px;
+                /*left: 42px;*/
+                top: 108px;
+                filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+                background-color: #8D8D8D;
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+                transition: all .5s;
+                background-repeat: no-repeat;
+                background-position: center;
+                background-size: cover;
+                border-radius: 0px 111.651px 111.651px 111.651px;
+                border: 3px white solid;
+            }
+            .banner .hero-container .relative-box .hero-box .left .box-image:hover{
+                /*position: absolute;*/
+                background-size: 150%;
+            }
+            .banner .hero-container .relative-box .hero-box .left .box-image img{
+                /*position: absolute;*/
+                width: 50px;
+                border-radius: 50%;
+                position: relative;
+                top: 55px;
+            }
+            .banner .hero-container .relative-box .hero-box .left p {
+                /*position: absolute;*/
+                text-align: center;
+                display: none;
+            }
+    
+    .banner .hero-container .relative-box .hero-box  .center{
+        /*position: absolute;*/
+        width: 177.89px;
+        height: 220.17999999999995px;
+        position: absolute;
+        top: 70%;
+        border: 3px solid #ffffff;
+        border-radius: 259px;
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+        filter: drop-shadow(3px 4px 24px rgba(0, 0, 0, 0.15));
+        /*transition: all .2s ease-in-out;*/
+    }
+            .banner .hero-container .relative-box .hero-box .center .overlay{
+                position: absolute;
+                display: none;
+                bottom: 0;
+                left: 0;
+                width: 337.89px;
+                height: 160.17999999999995px;
+                background: rgba(243, 243, 243, 0.7);
+                backdrop-filter: blur(-20px);
+                /* Note: backdrop-filter has minimal browser support */
+    
+                border-radius: 0px 0px 259px 259px;
+                justify-content: center;
+                align-items: flex-start;
+                padding-top: 40px;
+            }
+    .banner .hero-container .relative-box .hero-box .right{
+        position: absolute;
+        width: 20%;
+        right: -3%;
+        opacity: 0;
+        margin-top: -30px;
+        border-radius: 0.5rem;
+        display: flex;
+        flex-direction: column;
+        row-gap: 20px;
+        align-items: center;
+        transform: translateX(-20%);
+        transform: scale(.9);
+        animation: animation2 1s ease forwards ;
+        animation-delay: 200ms ;
+        
+    
+    }
+            .banner .hero-container .relative-box .hero-box .right .box-image{
+                /*position: absolute;*/
+                width: 104px;
+                height: 124px;
+                /*left: 42px;*/
+                top: 108px;
+                filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+                border: 3px solid #ffffff;
+                border-radius: 100.151px 0px 100.151px 100.151px;
+                background-repeat: no-repeat;
+                background-position: center;
+                background-size: cover;
+                display: flex;
+                justify-content: center;
+                align-items: flex-end;
+            }
+            .banner .hero-container .relative-box .hero-box .right .box-image img{
+                /*position: absolute;*/
+                width: 50px;
+                border-radius: 50%;
+                position: relative;
+                top: 55px;
+                
+            }
+            .banner .hero-container .relative-box .hero-box .right .box-image:hover{
+                /*position: absolute;*/
+                background-size: 150%;
+            }
+            .banner .hero-container .relative-box .hero-box .right h2{
+                /*position: absolute;*/
+                text-transform: capitalize;
+                color: #DAA379;
+                font-family: 'Jost';
+                font-style: normal;
+                font-weight: 700;
+                text-align: center;
+                font-size: 1.7rem;
+                margin-top: 14px;
+            }
+            .banner .hero-container .relative-box .hero-box .right .title span {
+                /*position: absolute;*/
+                font-family: 'Jost';
+                font-style: normal;
+                font-weight: 500;
+                line-height: 36px;
+                text-align: center;
+                text-transform: uppercase;
+                color: #8D8D8D;
+                margin-top: 14px;
+            }
+            .banner .hero-container .relative-box .hero-box .right p {
+                /*position: absolute;*/
+                text-align: center;
+                display: none;
+            }
+        
+            /* -------------- DOT POINTS ------------ */
+            .banner .hero-container .relative-box  .hero-box .dot_point_container{
+                position: absolute;
+                top: -80px;
+                /*right: 0; */
+                padding: 1rem;
+                height: 100%;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                gap: 1.2rem;
+            }
+            .banner .hero-container .relative-box .hero-box .dot_point_container .dot_point_active{
+                width: 12px;
+                height: 24px;
+                border-radius: 30%;
+                box-sizing: border-box;
+                background-color: #DAA379;
+                transition: 0.7s ease-in-out;
+            }
+            .banner .hero-container .relative-box .hero-box .dot_point_container .dot_point{
+                width: 10px;
+                height: 10px;
+                border-radius: 50%;
+                box-sizing: border-box;
+                opacity: .9;
+                border: 1px rgba(255, 255, 255, 0.8) solid;
+                background-color: white;
+                cursor: pointer;
+            }
+            .banner .hero-container .relative-box .hero-box .dot_point_container .dot_point:hover{
+                border: 3px #DAA379 solid;
+            }
+    
+            /* -------------- ARROW ------------ */
+            .prevBtn{
+                position: absolute;
+                top: 120%;
+                padding: .3em;
+                outline: none;
+                border: none;
+                color: white; 
+                background-color: #DAA379;
+                margin-right: 55%;
+                border-radius: 50%;
+                width: 40px;
+                height: 40px;
+                cursor: pointer;
+                transition: all .2s ease-in-out;
+                font-size: 1.2em;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+            }
+            .prevBtn:hover{
+                background-color: #eaba95;
+                width: 50px;
+                height: 50px;
+            }
+            .nextBtn{
+                position: absolute;
+                top: 120%;
+                margin-left: 55%;
+                padding: .3em;
+                outline: none;
+                border: none;
+                color: white; 
+                background-color: #DAA379;
+                border-radius: 50%;
+                width: 40px;
+                height: 40px;
+                cursor: pointer;
+                transition: all .3s ease-in-out;
+                font-size: 1.2em;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+            }
+            .nextBtn:hover{
+                background-color: #eaba95;
+                width: 50px;
+                height: 50px;
+            }
+}
+@media screen and (max-width: 328px){
+    .banner{
+        width: 100vw;
+        position: relative;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 40em;
+    }
+    
+    .banner img{
+        margin: auto;
+        z-index: 1;
+    }
+    .banner .hero-container{
+        height: 100%;
+        position: absolute;
+        top: 0;
+        gap: 5rem;
+        z-index: 2;
+        padding-top: 2em;
+    }
+    
+    .hide-card{
+        display: none;
+    }
+    .banner .hero-container .relative-box{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        position: relative;
+        width: 100%;
+        gap: 0.8rem;
+    
+    }
+    .banner .hero-container .relative-box .banner-info{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        gap: 8px;
+        padding: 1.5rem;
+    }
+    .banner .hero-container .relative-box .banner-info h1{
+        font-size: 4rem;
+    }
+    .banner .hero-container .relative-box .banner-info p{
+        font-size: 1.2rem;
+        line-height: 2rem;
+    }
+    .banner .hero-container .relative-box .hero-box{
+        width: 100%;
+        height: 12rem;
+        padding: 10px;
+        position: relative;
+        display: flex;
+        justify-content: center;
+    }
+    .banner .hero-container .relative-box .hero-box .left{
+        position: absolute;
+        width: 20%;
+        left: -3%;
+        opacity: 0;
+        border-radius: 0.5rem;
+        margin-top: -30px;
+        display: none;
+        flex-direction: column;
+        row-gap: 20px;
+        align-items: center;
+        transform: translateX(-20%);
+        transform: scale(.9);
+        animation: animation3 1s ease forwards ;
+        animation-delay: 200ms ;
+    }
+            .banner .hero-container .relative-box .hero-box .left h2 {
+                /*position: absolute;*/
+                text-transform: capitalize;
+                color: #DAA379;
+                font-family: 'Jost';
+                font-style: normal;
+                font-weight: 700;
+                text-align: center;
+                margin-top: 14px;
+                font-size: 1.7rem;
+            }
+            .banner .hero-container .relative-box .hero-box .left .box-image{
+                /*position: absolute;*/
+                width: 104px;
+                height: 124px;
+                /*left: 42px;*/
+                top: 108px;
+                filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+                background-color: #8D8D8D;
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+                transition: all .5s;
+                background-repeat: no-repeat;
+                background-position: center;
+                background-size: cover;
+                border-radius: 0px 111.651px 111.651px 111.651px;
+                border: 3px white solid;
+            }
+            .banner .hero-container .relative-box .hero-box .left .box-image:hover{
+                /*position: absolute;*/
+                background-size: 150%;
+            }
+            .banner .hero-container .relative-box .hero-box .left .box-image img{
+                /*position: absolute;*/
+                width: 50px;
+                border-radius: 50%;
+                position: relative;
+                top: 55px;
+            }
+            .banner .hero-container .relative-box .hero-box .left p {
+                /*position: absolute;*/
+                text-align: center;
+                display: none;
+            }
+    
+    .banner .hero-container .relative-box .hero-box  .center{
+        /*position: absolute;*/
+        width: 177.89px;
+        height: 220.17999999999995px;
+        position: absolute;
+        top: 50%;
+        border: 3px solid #ffffff;
+        border-radius: 259px;
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+        filter: drop-shadow(3px 4px 24px rgba(0, 0, 0, 0.15));
+        /*transition: all .2s ease-in-out;*/
+    }
+            .banner .hero-container .relative-box .hero-box .center .overlay{
+                position: absolute;
+                display: none;
+                bottom: 0;
+                left: 0;
+                width: 337.89px;
+                height: 160.17999999999995px;
+                background: rgba(243, 243, 243, 0.7);
+                backdrop-filter: blur(-20px);
+                /* Note: backdrop-filter has minimal browser support */
+    
+                border-radius: 0px 0px 259px 259px;
+                justify-content: center;
+                align-items: flex-start;
+                padding-top: 40px;
+            }
+    .banner .hero-container .relative-box .hero-box .right{
+        position: absolute;
+        width: 20%;
+        right: -3%;
+        opacity: 0;
+        margin-top: -30px;
+        border-radius: 0.5rem;
+        display: none;
+        flex-direction: column;
+        row-gap: 20px;
+        align-items: center;
+        transform: translateX(-20%);
+        transform: scale(.9);
+        animation: animation2 1s ease forwards ;
+        animation-delay: 200ms ;
+        
+    
+    }
+            .banner .hero-container .relative-box .hero-box .right .box-image{
+                /*position: absolute;*/
+                width: 104px;
+                height: 124px;
+                /*left: 42px;*/
+                top: 108px;
+                filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+                border: 3px solid #ffffff;
+                border-radius: 100.151px 0px 100.151px 100.151px;
+                background-repeat: no-repeat;
+                background-position: center;
+                background-size: cover;
+                display: flex;
+                justify-content: center;
+                align-items: flex-end;
+            }
+            .banner .hero-container .relative-box .hero-box .right .box-image img{
+                /*position: absolute;*/
+                width: 50px;
+                border-radius: 50%;
+                position: relative;
+                top: 55px;
+                
+            }
+            .banner .hero-container .relative-box .hero-box .right .box-image:hover{
+                /*position: absolute;*/
+                background-size: 150%;
+            }
+            .banner .hero-container .relative-box .hero-box .right h2{
+                /*position: absolute;*/
+                text-transform: capitalize;
+                color: #DAA379;
+                font-family: 'Jost';
+                font-style: normal;
+                font-weight: 700;
+                text-align: center;
+                font-size: 1.7rem;
+                margin-top: 14px;
+            }
+            .banner .hero-container .relative-box .hero-box .right .title span {
+                /*position: absolute;*/
+                font-family: 'Jost';
+                font-style: normal;
+                font-weight: 500;
+                line-height: 36px;
+                text-align: center;
+                text-transform: uppercase;
+                color: #8D8D8D;
+                margin-top: 14px;
+            }
+            .banner .hero-container .relative-box .hero-box .right p {
+                /*position: absolute;*/
+                text-align: center;
+                display: none;
+            }
+        
+            /* -------------- DOT POINTS ------------ */
+            .banner .hero-container .relative-box  .hero-box .dot_point_container{
+                position: absolute;
+                top: -80px;
+                /*right: 0; */
+                padding: 1rem;
+                height: 100%;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                gap: 1.2rem;
+            }
+            .banner .hero-container .relative-box .hero-box .dot_point_container .dot_point_active{
+                width: 12px;
+                height: 24px;
+                border-radius: 30%;
+                box-sizing: border-box;
+                background-color: #DAA379;
+                transition: 0.7s ease-in-out;
+            }
+            .banner .hero-container .relative-box .hero-box .dot_point_container .dot_point{
+                width: 10px;
+                height: 10px;
+                border-radius: 50%;
+                box-sizing: border-box;
+                opacity: .9;
+                border: 1px rgba(255, 255, 255, 0.8) solid;
+                background-color: white;
+                cursor: pointer;
+            }
+            .banner .hero-container .relative-box .hero-box .dot_point_container .dot_point:hover{
+                border: 3px #DAA379 solid;
+            }
+    
+            /* -------------- ARROW ------------ */
+            .prevBtn{
+                position: absolute;
+                top: 100%;
+                margin-right: 65%;
+                padding: .3em;
+                outline: none;
+                border: none;
+                color: white; 
+                background-color: #DAA379;
+                border-radius: 50%;
+                width: 40px;
+                height: 40px;
+                cursor: pointer;
+                transition: all .2s ease-in-out;
+                font-size: 1.2em;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+            }
+            .prevBtn:hover{
+                background-color: #eaba95;
+                width: 50px;
+                height: 50px;
+            }
+            .nextBtn{
+                position: absolute;
+                top: 100%;
+                margin-left: 65%;
+                padding: .3em;
+                outline: none;
+                border: none;
+                color: white; 
+                background-color: #DAA379;
+                border-radius: 50%;
+                width: 40px;
+                height: 40px;
+                cursor: pointer;
+                transition: all .3s ease-in-out;
+                font-size: 1.2em;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+            }
+            .nextBtn:hover{
+                background-color: #eaba95;
+                width: 50px;
+                height: 50px;
+            }
+}
+
+
+    /* -------------- ANIMATIONS ------------ */
+
+    @keyframes animation2 {
+        to{
+            opacity: 1;
+            position: absolute;
+            right: 3%;
+        }
+    }
+    @keyframes animation3 {
+        to{
+            opacity: 1;
+            position: absolute;
+            left: 3%;
+        }
+    }

@@ -1,0 +1,468 @@
+
+@media screen and (min-width: 690px){
+    .shape-box{
+        height: auto;
+        align-self: center;
+        justify-content: center;
+        display: grid;
+        grid-template-columns: repeat(2, 50%);
+        padding: 1em;
+        padding-top: 40px;
+        position: relative;
+        column-gap: 8px;
+        row-gap: 8px;
+    }
+    .shape-box .shape{
+        box-sizing: border-box;
+        width: 292px;
+        height: 318px;
+        border: 6px solid #FFFFFF;
+        filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+        background-color: blue;
+        position: relative;
+    }
+    
+        .figure1{
+            transform: matrix(-1, 0, 0, 1, 0, 0);
+            border-radius: 146px 146px 146px 0px;
+            background-image: url("../../../images/hero_img_6.jpeg");
+            background-repeat: no-repeat;
+            background-position: center;
+            background-size: cover;
+        }
+        .figure1 .title-shape{
+            position: absolute;
+            right: 0;
+            bottom: 0;
+            cursor: pointer;
+            background-color: white;
+            color: #DAA379;
+            border-radius: 23px;
+            padding-left: 40px;
+            padding-right: 40px;
+            padding-top: 10px;
+            padding-bottom: 10px;
+            transform: inherit;
+        }
+        .figure2{
+            border-radius: 146px 146px 0px 146px;
+            transform: matrix(-1, 0, 0, 1, 0, 0);
+            background-image: url("../../../images/hero_img_5.jpeg");
+            background-repeat: no-repeat;
+            background-position: center;
+            background-size: cover;
+        }
+        .figure2 .title-shape{
+            position: absolute;
+            right: 0;
+            bottom: 0;
+            cursor: pointer;
+            background: rgba(255, 255, 255, 0.9);
+            color: #DAA379;
+            border-radius: 23px;
+            padding-left: 40px;
+            padding-right: 40px;
+            padding-top: 10px;
+            padding-bottom: 10px;
+            backdrop-filter: blur(20px);
+            transform: inherit;
+        }
+        .figure3{
+            border-radius: 0px 146px 146px 146px;
+            transform: matrix(-1, 0, 0, 1, 0, 0);
+            background-image: url("../../../images/hero_img_6.jpeg");
+            background-repeat: no-repeat;
+            background-position: center;
+            background-size: cover;
+        }
+        .figure3 .title-shape{
+            position: absolute;
+            right: 0;
+            bottom: 0;
+            cursor: pointer;
+            background: rgba(255, 255, 255, 0.9);
+            color: #DAA379;
+            border-radius: 23px;
+            padding-left: 40px;
+            padding-right: 40px;
+            padding-top: 10px;
+            padding-bottom: 10px;
+            backdrop-filter: blur(20px);
+            transform: inherit;
+        }
+        .figure4{
+            border-radius: 146px 0px 146px 146px;
+            transform: matrix(-1, 0, 0, 1, 0, 0);
+            background-image: url("../../../images/hero_img_6.jpeg");
+            background-repeat: no-repeat;
+            background-position: center;
+            background-size: cover;
+        }
+        .figure4 .title-shape{
+            position: absolute;
+            right: 0;
+            bottom: 0;
+            cursor: pointer;
+            background: rgba(255, 255, 255, 0.9);
+            color: #DAA379;
+            border-radius: 23px;
+            padding-left: 40px;
+            padding-right: 40px;
+            padding-top: 10px;
+            padding-bottom: 10px;
+            backdrop-filter: blur(20px);
+            transform: inherit;
+            
+        }
+}
+@media screen and (max-width: 690px) and (min-width: 530px){
+    .shape-box{
+        height: auto;
+        align-self: center;
+        justify-content: center;
+        display: grid;
+        grid-template-columns: repeat(2, 50%);
+        padding: 1em;
+        padding-top: 40px;
+        position: relative;
+        column-gap: 8px;
+        row-gap: 8px;
+    }
+    .shape-box .shape{
+        margin: auto;
+        box-sizing: border-box;
+        width: 213px;
+        height: 227px;
+        border: 6px solid #FFFFFF;
+        filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+        background-color: blue;
+        position: relative;
+    }
+    
+        .figure1{
+            transform: matrix(-1, 0, 0, 1, 0, 0);
+            border-radius: 146px 146px 146px 0px;
+            background-image: url("../../../images/hero_img_6.jpeg");
+            background-repeat: no-repeat;
+            background-position: center;
+            background-size: cover;
+        }
+        .figure1 .title-shape{
+            position: absolute;
+            right: 0;
+            bottom: 0;
+            cursor: pointer;
+            background-color: white;
+            color: #DAA379;
+            border-radius: 23px;
+            padding-left: 40px;
+            padding-right: 40px;
+            padding-top: 10px;
+            padding-bottom: 10px;
+            transform: inherit;
+        }
+        .figure2{
+            border-radius: 146px 146px 0px 146px;
+            transform: matrix(-1, 0, 0, 1, 0, 0);
+            background-image: url("../../../images/hero_img_5.jpeg");
+            background-repeat: no-repeat;
+            background-position: center;
+            background-size: cover;
+        }
+        .figure2 .title-shape{
+            position: absolute;
+            right: 0;
+            bottom: 0;
+            cursor: pointer;
+            background: rgba(255, 255, 255, 0.9);
+            color: #DAA379;
+            border-radius: 23px;
+            padding-left: 40px;
+            padding-right: 40px;
+            padding-top: 10px;
+            padding-bottom: 10px;
+            backdrop-filter: blur(20px);
+            transform: inherit;
+        }
+        .figure3{
+            border-radius: 0px 146px 146px 146px;
+            transform: matrix(-1, 0, 0, 1, 0, 0);
+            background-image: url("../../../images/hero_img_6.jpeg");
+            background-repeat: no-repeat;
+            background-position: center;
+            background-size: cover;
+        }
+        .figure3 .title-shape{
+            position: absolute;
+            right: 0;
+            bottom: 0;
+            cursor: pointer;
+            background: rgba(255, 255, 255, 0.9);
+            color: #DAA379;
+            border-radius: 23px;
+            padding-left: 40px;
+            padding-right: 40px;
+            padding-top: 10px;
+            padding-bottom: 10px;
+            backdrop-filter: blur(20px);
+            transform: inherit;
+        }
+        .figure4{
+            border-radius: 146px 0px 146px 146px;
+            transform: matrix(-1, 0, 0, 1, 0, 0);
+            background-image: url("../../../images/hero_img_6.jpeg");
+            background-repeat: no-repeat;
+            background-position: center;
+            background-size: cover;
+        }
+        .figure4 .title-shape{
+            position: absolute;
+            right: 0;
+            bottom: 0;
+            cursor: pointer;
+            background: rgba(255, 255, 255, 0.9);
+            color: #DAA379;
+            border-radius: 23px;
+            padding-left: 40px;
+            padding-right: 40px;
+            padding-top: 10px;
+            padding-bottom: 10px;
+            backdrop-filter: blur(20px);
+            transform: inherit;
+            
+        }
+}
+@media screen and (max-width: 530px) and (min-width: 380px){
+    .shape-box{
+        height: auto;
+        align-self: center;
+        justify-content: center;
+        display: grid;
+        grid-template-columns: repeat(2, 50%);
+        padding-top: 40px;
+        position: relative;
+        column-gap: 8px;
+        row-gap: 8px;
+    }
+    .shape-box .shape{
+        margin: auto;
+        box-sizing: border-box;
+        width: 168px;
+        height: 179px;
+        border: 6px solid #FFFFFF;
+        filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+        background-color: blue;
+        position: relative;
+    }
+    
+        .figure1{
+            transform: matrix(-1, 0, 0, 1, 0, 0);
+            border-radius: 146px 146px 146px 0px;
+            background-image: url("../../../images/hero_img_6.jpeg");
+            background-repeat: no-repeat;
+            background-position: center;
+            background-size: cover;
+        }
+        .figure1 .title-shape{
+            position: absolute;
+            right: 0;
+            bottom: 0;
+            cursor: pointer;
+            background-color: white;
+            color: #DAA379;
+            border-radius: 23px;
+            padding-left: 40px;
+            padding-right: 40px;
+            padding-top: 10px;
+            padding-bottom: 10px;
+            transform: inherit;
+        }
+        .figure2{
+            border-radius: 146px 146px 0px 146px;
+            transform: matrix(-1, 0, 0, 1, 0, 0);
+            background-image: url("../../../images/hero_img_5.jpeg");
+            background-repeat: no-repeat;
+            background-position: center;
+            background-size: cover;
+        }
+        .figure2 .title-shape{
+            position: absolute;
+            right: 0;
+            bottom: 0;
+            cursor: pointer;
+            background: rgba(255, 255, 255, 0.9);
+            color: #DAA379;
+            border-radius: 23px;
+            padding-left: 40px;
+            padding-right: 40px;
+            padding-top: 10px;
+            padding-bottom: 10px;
+            backdrop-filter: blur(20px);
+            transform: inherit;
+        }
+        .figure3{
+            border-radius: 0px 146px 146px 146px;
+            transform: matrix(-1, 0, 0, 1, 0, 0);
+            background-image: url("../../../images/hero_img_6.jpeg");
+            background-repeat: no-repeat;
+            background-position: center;
+            background-size: cover;
+        }
+        .figure3 .title-shape{
+            position: absolute;
+            right: 0;
+            bottom: 0;
+            cursor: pointer;
+            background: rgba(255, 255, 255, 0.9);
+            color: #DAA379;
+            border-radius: 23px;
+            padding-left: 40px;
+            padding-right: 40px;
+            padding-top: 10px;
+            padding-bottom: 10px;
+            backdrop-filter: blur(20px);
+            transform: inherit;
+        }
+        .figure4{
+            border-radius: 146px 0px 146px 146px;
+            transform: matrix(-1, 0, 0, 1, 0, 0);
+            background-image: url("../../../images/hero_img_6.jpeg");
+            background-repeat: no-repeat;
+            background-position: center;
+            background-size: cover;
+        }
+        .figure4 .title-shape{
+            position: absolute;
+            right: 0;
+            bottom: 0;
+            cursor: pointer;
+            background: rgba(255, 255, 255, 0.9);
+            color: #DAA379;
+            border-radius: 23px;
+            padding-left: 40px;
+            padding-right: 40px;
+            padding-top: 10px;
+            padding-bottom: 10px;
+            backdrop-filter: blur(20px);
+            transform: inherit;
+            
+        }
+}
+@media screen and (max-width: 380px){
+    .shape-box{
+        height: auto;
+        align-self: center;
+        justify-content: center;
+        display: grid;
+        grid-template-columns: repeat(2, 50%);
+        padding-top: 40px;
+        position: relative;
+        column-gap: 8px;
+        row-gap: 8px;
+        width: 100%;
+    }
+    .shape-box .shape{
+        margin: auto;
+        box-sizing: border-box;
+        width: 145px;
+        height: 170px;
+        border: 6px solid #FFFFFF;
+        filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+        background-color: blue;
+        position: relative;
+        width: 100%;
+    }
+    
+        .figure1{
+            transform: matrix(-1, 0, 0, 1, 0, 0);
+            border-radius: 146px 146px 146px 0px;
+            background-image: url("../../../images/hero_img_6.jpeg");
+            background-repeat: no-repeat;
+            background-position: center;
+            background-size: cover;
+        }
+        .figure1 .title-shape{
+            position: absolute;
+            right: 0;
+            bottom: 0;
+            cursor: pointer;
+            background-color: white;
+            color: #DAA379;
+            border-radius: 23px;
+            padding-left: 10px;
+            padding-right: 10px;
+            /*padding-top: 10px;*/
+            /*padding-bottom: 10px;*/
+            transform: inherit;
+        }
+        .figure2{
+            border-radius: 146px 146px 0px 146px;
+            transform: matrix(-1, 0, 0, 1, 0, 0);
+            background-image: url("../../../images/hero_img_5.jpeg");
+            background-repeat: no-repeat;
+            background-position: center;
+            background-size: cover;
+        }
+        .figure2 .title-shape{
+            position: absolute;
+            right: 0;
+            bottom: 0;
+            cursor: pointer;
+            background: rgba(255, 255, 255, 0.9);
+            color: #DAA379;
+            border-radius: 23px;
+            padding-left: 10px;
+            padding-right: 0px;
+            /*padding-top: 10px;*/
+            /*padding-bottom: 10px;*/
+            backdrop-filter: blur(20px);
+            transform: inherit;
+        }
+        .figure3{
+            border-radius: 0px 146px 146px 146px;
+            transform: matrix(-1, 0, 0, 1, 0, 0);
+            background-image: url("../../../images/hero_img_6.jpeg");
+            background-repeat: no-repeat;
+            background-position: center;
+            background-size: cover;
+        }
+        .figure3 .title-shape{
+            position: absolute;
+            right: 0;
+            bottom: 0;
+            cursor: pointer;
+            background: rgba(255, 255, 255, 0.9);
+            color: #DAA379;
+            border-radius: 23px;
+            padding-left: 10px;
+            padding-right: 10px;
+            /*padding-top: 10px;*/
+            /*padding-bottom: 10px;*/
+            backdrop-filter: blur(20px);
+            transform: inherit;
+        }
+        .figure4{
+            border-radius: 146px 0px 146px 146px;
+            transform: matrix(-1, 0, 0, 1, 0, 0);
+            background-image: url("../../../images/hero_img_6.jpeg");
+            background-repeat: no-repeat;
+            background-position: center;
+            background-size: cover;
+        }
+        .figure4 .title-shape{
+            position: absolute;
+            right: 0;
+            bottom: 0;
+            cursor: pointer;
+            background: rgba(255, 255, 255, 0.9);
+            color: #DAA379;
+            border-radius: 23px;
+            padding-left: 10px;
+            padding-right: 10px;
+            /*padding-top: 10px;*/
+            /*padding-bottom: 10px;*/
+            backdrop-filter: blur(20px);
+            transform: inherit;
+            
+        }
+}

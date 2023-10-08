@@ -1,13 +1,91 @@
-body {
+/* Général Css */ 
+*, *::before, *::after{
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  padding: 0;
+  border: 0; 
+  outline: 0;
+  list-style: none;
+  text-decoration: none;
+  box-sizing: border-box;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+:root{
+  --primary-hue: 26;
+  --secondary-hue: 40;
+
+  --bg-color-primary : hsl(0,0,100);
+  --bg-color-secondary: hsl(var(--primary-hue),49%, 88%);
+  --bg-color-green: hsl(189, 57%, 27%);
+
+  --color-primary-100: hsl(var(--secondary-hue),0%, 100%);
+  --color-primary-200: hsl(var(--secondary-hue),0%, 76%);
+  --color-primary-300: hsl(var(--secondary-hue),0%, 0%); 
+
+  --color-secondary-100: hsl(var(--primary-hue),64%, 77%); 
+  --color-secondary-200: hsl(var(--primary-hue),58%, 70%); 
+  --color-secondary-300: hsl(var(--primary-hue),48%, 63%); 
+
+  --green-hue-100 : hsl(189, 57%, 27%);
+  --green-hue-200 : hsl(var(--bg-color-green),64%, 77%);
+
+  --container-width-lg: 80%;
+  --container-width-md: 90%;
+}
+
+
+body {
+  margin: 0;
+  font-family: 'Jost', sans-serif;
+  overflow-x: hidden;
+  line-height: 1.7;
+  color: var(--color-primary-300);
+  background-color: rgb(240, 229, 211);
+}
+
+h1{
+  line-height: 1.2;
+  color: var(--bg-color-green)
+}
+h2,h3,h4,h5{
+  line-height: 1.2;
+  color: var(--color-secondary-200)
+}
+
+h1{
+  font-size: 3rem;
+}
+h2{
+  font-size: 2rem;
+}
+h3{
+  font-size: 1.3rem;
+}
+
+a{
+  color: var(--color-primary-300);
+}
+
+p{
+  color: var(--green-hue-100);
+  text-shadow: none !important;
+}
+
+img{
+  display: block;
+  object-fit: cover;
+  width: 100%;
+}
+
+@media screen and (min-width: 1024px){
+  .container{
+    width: var(--container-width-lg);
+    max-width: 1920px;
+    margin: 0 auto;
+  }
+}
+@media screen and (max-width: 1024px){
+  .container{
+    width: var(--container-width-md);
+    margin: 0 auto;
+  }
 }
